@@ -19,6 +19,10 @@ class Quiz:
         self.display_title()
         self.display_question()
 
+        self.opt_selected = IntVar()
+        self.opts = self.radio_buttons()
+        self.display_options()
+
         self.run()
 
 
@@ -35,6 +39,30 @@ class Quiz:
          
         self.dis_question.place(x = 70, y = 100)
 
+    def radio_buttons(self):
+         
+        q_list = []
+        y_pos = 180
+         
+        while len(q_list) < 4:
+             
+            radio_btn = Radiobutton(self.window, text=" ", variable = self.opt_selected,
+            value = len(q_list) + 1, font = ("ariel", 14))
+             
+            q_list.append(radio_btn)
+             
+            radio_btn.place(x = 100, y = y_pos)
+            y_pos += 40
+        
+        return q_list
+
+    def display_options(self):
+        val = 0
+        self.opt_selected.set(0)
+         
+        for option in self.options[self.q_number]:
+            self.opts[val]['text'] = option
+            val += 1
 
 
     def run(self):
