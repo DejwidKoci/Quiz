@@ -1,0 +1,250 @@
+{
+   
+    "question": [
+      "Q1. In what year Liverpool F.C. founded?",
+      "Q2. Who is the founder of the club?",
+      "Q3. Under which coach did Liverpool win its first two English \n championships?",
+      "Q4. Against which team did Liverpool face in the 1914 \n FA Cup final?",
+      "Q5. What were the colors of Liverpool's first home outfits? \n",
+      "Q6. How many years have fans of The Reds waited to win a \n trophy since 1947, when they first won the post-war title?",
+      "Q7. Who came to The Reds as manager in December 1959 \n and later became a club legend during the great depression?",
+      "Q8. In what year did you manage to win the FA Cup for \n the first time?",
+      "Q9. With which team did the Reds team debut in European \n cups?",
+      "Q10. What is the name of the most famous grandstand \n at Anfield?",
+      "Q11. In what year did Liverpool manage to win its first \n European cup?",
+      "Q12. There are two great teams in Liverpool: Liverpool and \n its reserves'  and 'You're only as good as your last game.' \n Who is the author of the aforementioned words?",
+      "Q13. Who was the first manufacturer visible on the Reds'\n shirts?",
+      "Q14. What is LFC's highest record victory ever?",
+      "Q15. How many cups in total did Bob Paisley lift as Liverpool\n coach? (excluding friendly tournaments)",
+      "Q16. Which footballer has made the most appearances \n in a red jersey throughout history?",
+      "Q17. After Paisley's departure in 1983, who sat on the \n coaching bench?",
+      "Q18. In which season did Liverpool reach the 'triple crown' \n (English Championship, League Cup, European Cup)?",
+      "Q19. Who did Liverpool face then in the 1985 European Cup \n final?",
+      "Q20. For how long were Liverpool and other English \n teams actually excluded from European competition after \n the tragedy at Heysel?",
+      "Q21. In what year did Liverpool last reach the English \n championship? (with exception of May 2020)",
+      "Q22. Where exactly in the stadium will we see the \n 'You'll Never Walk Alone' sign?",
+      "Q23. What is the exact date of the Hillsborough tragedy?",
+      "Q24. Who has scored the most goals in the club's entire \n history?",
+      "Q25. What do we call derby matches between Liverpool \n and Everton?",
+      "Q26. Who took over as manager of the Reds in the 2000/2001 \n season, when LFC won the 'triple crown' ?",
+      "Q27. What was the score until the break in the Champions \n League final in Istanbul between LFC and Milan?",
+      "Q28. What is the name of the training center where the Reds \n players train? (as of May 2023)",
+      "Q29. This team has an extraordinary soul - no matter how high \n we lose, we always fight until the end. Who is the author \n of these words?",
+      "Q30. With which team did Jurgen Klopp make his debut as \n manager  of the Reds?"
+    ],
+    "answer": [
+      2,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      4,
+      4,
+      3,
+      3,
+      4,
+      1,
+      2,
+      4,
+      4,
+      3,
+      1,
+      2,
+      2,
+      1,
+      2,
+      4,
+      3,
+      4,
+      1,
+      1
+    ],
+    "options": [
+  
+      [
+        "1885",
+        "1892",
+        "1882",
+        "1893"
+      ],
+      [
+        "John Houlding",
+        "John Orrell",
+        "George Mahon",
+        "Tom Watson"
+      ],
+      [
+        "Tom Watson",
+        "John McKenna",
+        "David Ashworth",
+        "Bill Shankly"
+      ],
+      [
+        "West Bromwich Albion",
+        "Burnley",
+        "Manchester United",
+        "Arsenal"
+      ],
+      [
+        "green and white",
+        "blue and white",
+        "black and white",
+        "black and red"
+      ],
+      [
+        "24 years",
+        "16 years",
+        "29 years",
+        "10 years"
+      ],
+      [
+        "George Kay",
+        "Phil Taylor",
+        "Bob Paisley",
+        "Bill Shankly"
+      ],
+      [
+        "1962",
+        "1965",
+        "1968",
+        "1970"
+      ],
+      [
+        "Anderlecht",
+        "Knattspyrnufelag Reykjavikur",
+        "Gornik Zabrze",
+        "Inter Mediolan"
+      ],
+      [
+        "Kemlyn Road Stand",
+        "The Kop",
+        "Anfield Road Stand",
+        "Centenary Stand"
+      ],
+      [
+        "1981",
+        "1970",
+        "1973",
+        "1977"
+      ],
+      [
+        "Joe Fagan",
+        "Bob Paisley",
+        "Ray Clemence",
+        "Bill Shankly"
+      ],
+      [
+        "Nike",
+        "Reebok",
+        "Umbro",
+        "Adidas"
+      ],
+      [
+        "11:0",
+        "10:0",
+        "13:2",
+        "9:1"
+      ],
+      [
+        18,
+        14,
+        11,
+        20
+      ],
+      [
+        "Ian Callaghan",
+        "Kenny Dalglish",
+        "Jamie Carragher",
+        "Steven Gerrard"
+      ],
+      [
+        "Kenny Dalglish",
+        "Joe Fagan",
+        "Roy Evans",
+        "George Kay"
+      ],
+      [
+        "1981/82",
+        "1984/85",
+        "1982/83",
+        "1983/84"
+      ],
+      [
+        "Bayern Monachium",
+        "Juventus",
+        "AS Roma",
+        "Real Madryt"
+      ],
+      [
+        "7 years",
+        "2 years",
+        "5 years",
+        "3 years"
+      ],
+      [
+        1990,
+        1988,
+        1992,
+        1991
+      ],
+      [
+        "in the corridor leading to the pitch",
+        "inside Shankly's gate",
+        "at Paisley's gate",
+        "at The Kop grandstand"
+      ],
+      [
+        "March 16, 1988",
+        "April 15, 1989",
+        "March 11, 1989",
+        "April 22, 1988"
+      ],
+      [
+        "Ian Rush",
+        "Kenny Dalglish",
+        "Steven Gerrard",
+        "Roger Hunt"
+      ],
+      [
+        "Stanley Derby",
+        "Merseyside Derby",
+        "Liverpool Derby",
+        "Derby of England"
+      ],
+      [
+        "Rafa Benitez",
+        "Graeme Souness",
+        "Roy Hodgson",
+        "Gerard Houllier"
+      ],
+      [
+        "1:1",
+        "2:1 lead Milan",
+        "3:0 lead Milan",
+        "2:0 lead Mialn"
+      ],
+      [
+        "Merseyside",
+        "Tranmere",
+        "Astroturf",
+        "Melwood"
+      ],
+      [
+        "Steven Gerrard",
+        "Jamie Carragher",
+        "Rafa Benitez",
+        "Jerzy Dudek"
+      ],
+      [
+        "Tottenham",
+        "Arsenal",
+        "Manchester City",
+        "Everton"
+      ]
+    ] 
+  }
