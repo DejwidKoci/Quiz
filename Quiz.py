@@ -4,6 +4,7 @@ import json
 
 class Quiz:
     def __init__(self):
+        
         self.window = Tk()
         self.window.geometry("800x450")
         self.window.title("Liverpool FC Quiz")
@@ -23,8 +24,12 @@ class Quiz:
         self.opts = self.radio_buttons()
         self.display_options()
 
-        self.run()
+        self.buttons()
+        self.data_size = len(self.question)
 
+        self.correct = 0
+
+        self.run()
 
 
     def display_title(self):
@@ -64,6 +69,49 @@ class Quiz:
             self.opts[val]['text'] = option
             val += 1
 
+    def buttons(self):
+         
+        next_button = Button(self.window, text = "Next", command = self.next_btn,
+        width = 10, bg = "blue", fg = "white", font = ("ariel", 16, "bold"))
+         
+        next_button.place(x = 350, y = 380)
+         
+        quit_button = Button(self.window, text = "Quit", command = self.window.destroy,
+        width = 5, bg = "black", fg = "white", font = ("ariel",16," bold"))
+         
+        quit_button.place(x = 700, y = 50)    
+
+    def next_btn(self):
+         
+        if self.check_ans(self.q_number):
+            self.correct += 1
+         
+        self.q_number += 1
+         
+        if self.q_number == self.data_size:
+            self.display_result()
+            self.window.destroy()
+        else:
+            self.dis_question.destroy()
+            self.display_question()
+            self.display_options()
+
+    def check_ans(self, q_number):
+         
+        if self.opt_selected.get() == self.answer[q_number]:
+            return True
+
+    def display_result(self):
+         
+        wrong_count = self.data_size - self.correct
+        correct = f"Correct: {self.correct}"
+        wrong = f"Wrong: {wrong_count}"
+         
+        score = int(self.correct / self.data_size * 100)
+        result = f"Score: {score}%"
+         
+        mb.showinfo("Result", f"{result} \n {correct} \n {wrong}")
+    
 
     def run(self):
         self.window.mainloop()
